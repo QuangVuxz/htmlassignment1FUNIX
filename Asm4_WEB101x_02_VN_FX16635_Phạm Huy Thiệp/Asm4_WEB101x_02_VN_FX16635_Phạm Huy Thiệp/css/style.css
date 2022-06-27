@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: tahoma;
+}
+.row img{
+    width: 100%;
+    height: 30vw;
+    padding-bottom: 2vw ;
+}
+
+.footer{
+    background-color: rgb(250, 250, 250);
+    margin-top: 5vw;
+}
+
+.footer p{
+    color:rgb(0, 0, 0);
+}
+h2{
+    padding-bottom: 5vw;
+}
+.vanmieu_banner_title{
+    text-align: center;
+}
+.vanmieu_banner img{
+    width: 100%;
+    height: 50vw;
+    padding-bottom: 2vw ;
+}
+/*media queries*/
+@media screen and (max-width: 768px) {
+    .row img{
+        height: 20vw;
+    }
+    .footer{
+        margin-top: 10vw;
+    }
+    h2{
+        padding-bottom: 5vw;
+    }
+    /*hinhanh.html*/
+    .rounded{
+        width: 100%;
+    }
+    /*vanmieu.html*/
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .row img{
+        height: 30vw;
+    }
+    .footer{
+        margin-top: 10vw;
+    }
+    h2{
+        padding-bottom: 5vw;
+    }
+    .col img{
+        height: 28vw;
+    }
+    /*hinhanh.html*/
+    .rounded{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .row img{
+        height: 30vw;
+    }
+    .footer{
+        margin-top: 5vw;
+    }
+    .col img{
+        height: 30vw;
+    }
+    h2{
+        padding-bottom: 5vw;
+    }
+    /*hinhanh.html*/
+    .rounded{
+        width: 60%;
+    }
+}
